@@ -82,6 +82,8 @@
         <p><i class="fas fa-phone"></i> Teléfono: 0987108891</p>
         <p><i class="fab fa-facebook"></i> Facebook: <a href="https://www.facebook.com/2243jean" target="_blank">Mi perfil</a></p>
         <button class="cambio" onclick="window.location.href='infor.html';">Edición boostrap</button>
+        <button onclick="showmessage()">Aceptar</button>
+        <button onclick="Sobreescribir()">Sobreescribir</button>
     </section>
 
     <footer>
@@ -90,5 +92,21 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        function showmessage(){
+            alert("Has presionado el botón aceptar");
+        }
+        function Sobreescribir(){
+            const texto = document.querySelectorAll('.cambtext')//sirve para atrapar argumentos 
+            
+
+            texto.forEach(textos => {
+                textos.textContent = "Informacion no valida, ponga información adecuada";
+                
+            });
+        }
+    </script>
+    
 </body>
 </html>
