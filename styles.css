@@ -92,7 +92,8 @@ nav a {
 }
 
 .sem1 {
-    background: rgb(201, 0, 0);    
+    background: rgb(201, 0, 0);  
+    transition: box-shadow 9 sec;  
 }
 
 .sem2 {
