@@ -92,15 +92,18 @@ nav a {
 }
 
 .sem1 {
-    background: rgb(201, 0, 0);    
+    background: rgb(201, 0, 0);
+    transition: box-shadow 6s ease;
 }
 
 .sem2 {
     background: rgb(213, 255, 5);
+    transition: box-shadow 3.5s ease;
 }
 
 .sem3 {
     background: rgb(4, 236, 54);
+    transition: box-shadow 0.3s ease;
 }
 
 .cam1 {
