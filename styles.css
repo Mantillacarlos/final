@@ -81,3 +81,38 @@ nav a {
     margin: 7px;
     padding: 6px;
 }
+
+.sem1, .sem2, .sem3 {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: grey;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.sem1 {
+    background: rgb(201, 0, 0);    
+    transition: box-shadow 9s ease;
+}
+
+.sem2 {
+    background: rgb(213, 255, 5);
+    transition: box-shadow 4s ease;
+}
+
+.sem3 {
+    background: rgb(4, 236, 54);
+    transition: box-shadow 0.3s ease;
+}
+
+.cam1 {
+    box-shadow: 0 4px 8px rgb(112, 121, 112);
+    margin:20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #717e8b;
+    border: none;
+}
+
+
