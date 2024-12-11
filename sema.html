@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>SEMÁFORO</h1>
+    </header>
+
+    <section class="sem1" id="sec1">
+    </section>
+
+    <section class="sem2" id="sec2">
+    </section>
+
+    <section class="sem3" id="sec3">
+    </section>
+
+    <button class="cam1" onclick="cambiarSemaforo('sec1', 'red')">Prende el rojo</button>
+    <button class="cam1" onclick="cambiarSemaforo('sec2', 'yellow')">Prende el amarillo</button>
+    <button class="cam1" onclick="cambiarSemaforo('sec3', 'green')">Prende el verde</button>
+
+    <script>
+        function cambiarSemaforo(id, color) {
+            const semaforo = document.getElementById(id);
+            
+            document.querySelectorAll('section').forEach(section => {
+                section.style.boxShadow = 'none';
+            });
+
+            semaforo.style.boxShadow = `0 0 5px 5px ${color}`;
+        }
+    </script>
+
+</body>
+</html>
