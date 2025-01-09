@@ -15,9 +15,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-const btn = document.getElementById('colorBtn');
-const colores = ['#FF5733', '#33FF57', '#3357FF', '#F3FF33', '#FF33B5'];
-btn.addEventListener('click', () => {
-  const crandom = colores[Math.floor(Math.random() * colores.length)];
-  btn.style.backgroundColor = crandom;
-});

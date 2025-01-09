@@ -147,14 +147,3 @@ footer {
         text-align: center;
     }
 }
-
-#colorBtn{
-    padding: 15px 30px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #007BFF;
-    color: white;
-    transition: background-color 0.3s ease;
-}
